@@ -1,0 +1,154 @@
+services:
+  ecommerce.api.customers:
+    build:
+      context: C:\Users\Eric Duffield\Files\GitHub\Ecommerce
+      dockerfile: ECommerce.Api.Customers\Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: ECommerce.Api.Customers
+      target: base
+    container_name: ECommerce.Api.Customers
+    entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus
+      /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646 /LogDebuggeeOutputToStdOut
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: c:\.nuget\fallbackpackages;c:\.nuget\fallbackpackages2
+      NUGET_PACKAGES: C:\.nuget\packages
+    image: ecommerceapicustomers:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath c:\.nuget\packages
+        --additionalProbingPath c:\.nuget\fallbackpackages --additionalProbingPath
+        c:\.nuget\fallbackpackages2  "C:\app\bin\Debug\netcoreapp3.1\ECommerce.Api.Customers.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: C:\remote_debugger\x64\utils\KillProcess.exe
+        dotnet.exe
+      com.microsoft.visualstudio.debuggee.program: '"C:\Program Files\dotnet\dotnet.exe"'
+      com.microsoft.visualstudio.debuggee.workingdirectory: C:\app
+    ports:
+    - published: 6002
+      target: 80
+    volumes:
+    - C:\Users\Eric Duffield\AppData\Roaming\ASP.NET\Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
+    - C:\Users\Eric Duffield\AppData\Roaming\Microsoft\UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
+    - C:\Users\Eric Duffield\Files\GitHub\Ecommerce\ECommerce.Api.Customers:C:\app:rw
+    - C:\Users\Eric Duffield\onecoremsvsmon\16.11.1199.0:C:\remote_debugger:ro
+    - C:\Users\Eric Duffield\Files\GitHub\Ecommerce:C:\src:rw
+    - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:c:\.nuget\fallbackpackages:ro
+    - C:\Program Files (x86)\Microsoft\Xamarin\NuGet:c:\.nuget\fallbackpackages2:ro
+    - C:\Users\Eric Duffield\.nuget\packages:c:\.nuget\packages:ro
+  ecommerce.api.orders:
+    build:
+      context: C:\Users\Eric Duffield\Files\GitHub\Ecommerce
+      dockerfile: ECommerce.Api.Orders\Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: ECommerce.Api.Orders
+      target: base
+    container_name: ECommerce.Api.Orders
+    entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus
+      /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646 /LogDebuggeeOutputToStdOut
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: c:\.nuget\fallbackpackages;c:\.nuget\fallbackpackages2
+      NUGET_PACKAGES: C:\.nuget\packages
+    image: ecommerceapiorders:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath c:\.nuget\packages
+        --additionalProbingPath c:\.nuget\fallbackpackages --additionalProbingPath
+        c:\.nuget\fallbackpackages2  "C:\app\bin\Debug\netcoreapp3.1\ECommerce.Api.Orders.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: C:\remote_debugger\x64\utils\KillProcess.exe
+        dotnet.exe
+      com.microsoft.visualstudio.debuggee.program: '"C:\Program Files\dotnet\dotnet.exe"'
+      com.microsoft.visualstudio.debuggee.workingdirectory: C:\app
+    ports:
+    - published: 6003
+      target: 80
+    volumes:
+    - C:\Users\Eric Duffield\AppData\Roaming\ASP.NET\Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
+    - C:\Users\Eric Duffield\AppData\Roaming\Microsoft\UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
+    - C:\Users\Eric Duffield\Files\GitHub\Ecommerce\ECommerce.Api.Orders:C:\app:rw
+    - C:\Users\Eric Duffield\onecoremsvsmon\16.11.1199.0:C:\remote_debugger:ro
+    - C:\Users\Eric Duffield\Files\GitHub\Ecommerce:C:\src:rw
+    - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:c:\.nuget\fallbackpackages:ro
+    - C:\Program Files (x86)\Microsoft\Xamarin\NuGet:c:\.nuget\fallbackpackages2:ro
+    - C:\Users\Eric Duffield\.nuget\packages:c:\.nuget\packages:ro
+  ecommerce.api.products:
+    build:
+      context: C:\Users\Eric Duffield\Files\GitHub\Ecommerce
+      dockerfile: ECommerce.Api.Products\Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: ECommerce.Api.Products
+      target: base
+    container_name: ECommerce.Api.Products
+    entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus
+      /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646 /LogDebuggeeOutputToStdOut
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: c:\.nuget\fallbackpackages;c:\.nuget\fallbackpackages2
+      NUGET_PACKAGES: C:\.nuget\packages
+    image: ecommerceapiproducts:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath c:\.nuget\packages
+        --additionalProbingPath c:\.nuget\fallbackpackages --additionalProbingPath
+        c:\.nuget\fallbackpackages2  "C:\app\bin\Debug\netcoreapp3.1\ECommerce.Api.Products.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: C:\remote_debugger\x64\utils\KillProcess.exe
+        dotnet.exe
+      com.microsoft.visualstudio.debuggee.program: '"C:\Program Files\dotnet\dotnet.exe"'
+      com.microsoft.visualstudio.debuggee.workingdirectory: C:\app
+    ports:
+    - published: 6001
+      target: 80
+    volumes:
+    - C:\Users\Eric Duffield\AppData\Roaming\ASP.NET\Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
+    - C:\Users\Eric Duffield\AppData\Roaming\Microsoft\UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
+    - C:\Users\Eric Duffield\Files\GitHub\Ecommerce\ECommerce.Api.Products:C:\app:rw
+    - C:\Users\Eric Duffield\onecoremsvsmon\16.11.1199.0:C:\remote_debugger:ro
+    - C:\Users\Eric Duffield\Files\GitHub\Ecommerce:C:\src:rw
+    - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:c:\.nuget\fallbackpackages:ro
+    - C:\Program Files (x86)\Microsoft\Xamarin\NuGet:c:\.nuget\fallbackpackages2:ro
+    - C:\Users\Eric Duffield\.nuget\packages:c:\.nuget\packages:ro
+  ecommerce.api.search:
+    build:
+      context: C:\Users\Eric Duffield\Files\GitHub\Ecommerce
+      dockerfile: ECommerce.Api.Search\Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: ECommerce.Api.Search
+      target: base
+    container_name: ECommerce.Api.Search
+    entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus
+      /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646 /LogDebuggeeOutputToStdOut
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: c:\.nuget\fallbackpackages;c:\.nuget\fallbackpackages2
+      NUGET_PACKAGES: C:\.nuget\packages
+    image: ecommerceapisearch:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath c:\.nuget\packages
+        --additionalProbingPath c:\.nuget\fallbackpackages --additionalProbingPath
+        c:\.nuget\fallbackpackages2  "C:\app\bin\Debug\netcoreapp3.1\ECommerce.Api.Search.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: C:\remote_debugger\x64\utils\KillProcess.exe
+        dotnet.exe
+      com.microsoft.visualstudio.debuggee.program: '"C:\Program Files\dotnet\dotnet.exe"'
+      com.microsoft.visualstudio.debuggee.workingdirectory: C:\app
+    ports:
+    - published: 6004
+      target: 80
+    volumes:
+    - C:\Users\Eric Duffield\AppData\Roaming\ASP.NET\Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
+    - C:\Users\Eric Duffield\AppData\Roaming\Microsoft\UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
+    - C:\Users\Eric Duffield\Files\GitHub\Ecommerce\ECommerce.Api.Search:C:\app:rw
+    - C:\Users\Eric Duffield\onecoremsvsmon\16.11.1199.0:C:\remote_debugger:ro
+    - C:\Users\Eric Duffield\Files\GitHub\Ecommerce:C:\src:rw
+    - C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages:c:\.nuget\fallbackpackages:ro
+    - C:\Program Files (x86)\Microsoft\Xamarin\NuGet:c:\.nuget\fallbackpackages2:ro
+    - C:\Users\Eric Duffield\.nuget\packages:c:\.nuget\packages:ro
+version: '3.4'

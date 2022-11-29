@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\Ecommerce\\ECommerce.Api.Customers\\ECommerce.Api.Customers.csproj": {}
+    "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\ECommerce.Api.Customers\\ECommerce.Api.Customers.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\Ecommerce\\ECommerce.Api.Customers\\ECommerce.Api.Customers.csproj": {
+    "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\ECommerce.Api.Customers\\ECommerce.Api.Customers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\Ecommerce\\ECommerce.Api.Customers\\ECommerce.Api.Customers.csproj",
+        "projectUniqueName": "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\ECommerce.Api.Customers\\ECommerce.Api.Customers.csproj",
         "projectName": "ECommerce.Api.Customers",
-        "projectPath": "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\Ecommerce\\ECommerce.Api.Customers\\ECommerce.Api.Customers.csproj",
+        "projectPath": "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\ECommerce.Api.Customers\\ECommerce.Api.Customers.csproj",
         "packagesPath": "C:\\Users\\Eric Duffield\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\Ecommerce\\ECommerce.Api.Customers\\obj\\",
+        "outputPath": "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\ECommerce.Api.Customers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -58,6 +58,10 @@
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.11.1, )"
             }
           },
           "imports": [

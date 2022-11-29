@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d1vCnkcOo5oeAi5bLWf1ZJ8t6qWRXQrxNN/oJHoaT7DIyd2aGX6teadD7L8rLar0gJu88ZZ6B4FyD3U1sUnvRQ==",
+  "dgSpecHash": "A3t+5uJ8ioOOxPWGM2wy00C88vrFrCyM9LGVjvj6rq6dyV5ERz5rbvmB3XviyYvw3W/KSLi7/eotmoS8eN01Sw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\Ecommerce\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eric Duffield\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Eric Duffield\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
@@ -31,6 +31,7 @@
     "C:\\Users\\Eric Duffield\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Eric Duffield\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.5.0\\microsoft.testplatform.objectmodel.16.5.0.nupkg.sha512",
     "C:\\Users\\Eric Duffield\\.nuget\\packages\\microsoft.testplatform.testhost\\16.5.0\\microsoft.testplatform.testhost.16.5.0.nupkg.sha512",
+    "C:\\Users\\Eric Duffield\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\Eric Duffield\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\Eric Duffield\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
     "C:\\Users\\Eric Duffield\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",

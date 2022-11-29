@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XvM7C6mzeT2+UZT985RD4rh1I93853dIjxM4Gzjmy5DjXndZatGhmEOLRgb/fYanrI+wswd8c5ObuG9Ji2kAlg==",
+  "dgSpecHash": "0OB7wqBAQCRMKJwpOQKTV7eBWEiNB5i2gohEEJhi4mLERj81kaazEwV2DJPvx1bT6yysiOtpGKtTXeTbgTMIjA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\Ecommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj",
+  "projectFilePath": "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eric Duffield\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Eric Duffield\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
@@ -26,6 +26,7 @@
     "C:\\Users\\Eric Duffield\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.0\\microsoft.extensions.primitives.3.1.0.nupkg.sha512",
     "C:\\Users\\Eric Duffield\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Eric Duffield\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Eric Duffield\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\Eric Duffield\\.nuget\\packages\\system.collections.immutable\\1.7.0\\system.collections.immutable.1.7.0.nupkg.sha512",
     "C:\\Users\\Eric Duffield\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\Eric Duffield\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.0\\system.diagnostics.diagnosticsource.4.7.0.nupkg.sha512",

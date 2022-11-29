@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\Ecommerce\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj": {}
+    "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\Ecommerce\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj": {
+    "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\Ecommerce\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj",
         "projectName": "ECommerce.Api.Products.Tests",
-        "projectPath": "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\Ecommerce\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj",
+        "projectPath": "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\ECommerce.Api.Products.Tests\\ECommerce.Api.Products.Tests.csproj",
         "packagesPath": "C:\\Users\\Eric Duffield\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\Ecommerce\\ECommerce.Api.Products.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\ECommerce.Api.Products.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -35,8 +35,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\Ecommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj": {
-                "projectPath": "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\Ecommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj"
+              "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj": {
+                "projectPath": "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj"
               }
             }
           }
@@ -91,14 +91,14 @@
         }
       }
     },
-    "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\Ecommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj": {
+    "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\Ecommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj",
+        "projectUniqueName": "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj",
         "projectName": "ECommerce.Api.Products",
-        "projectPath": "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\Ecommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj",
+        "projectPath": "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\ECommerce.Api.Products\\ECommerce.Api.Products.csproj",
         "packagesPath": "C:\\Users\\Eric Duffield\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\Ecommerce\\ECommerce.Api.Products\\obj\\",
+        "outputPath": "C:\\Users\\Eric Duffield\\Files\\GitHub\\Ecommerce\\ECommerce.Api.Products\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -145,6 +145,10 @@
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.11.1, )"
             }
           },
           "imports": [
